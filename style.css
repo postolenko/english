@@ -1261,6 +1261,246 @@ a:active {
 
     /* ----- /Prices Page ------ */
 
+    /* ----- Testimonials Page ------ */
+
+    .testimonial-box {
+        display: block;
+        position: relative;
+        padding: 25px 0;
+    }
+
+/*    .testimonial-box:nth-child(1) {
+        padding-top: 0;
+    }*/
+
+    .testimonial-box:before {
+        display: block;
+        content: "";
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: -moz-linear-gradient(left,  rgba(192,194,195,0) 0%, rgba(192,194,195,0.81) 28%, rgba(192,194,195,1) 43%, rgba(192,194,195,1) 59%, rgba(192,194,195,0.81) 75%, rgba(192,194,195,0) 100%);
+        background: -webkit-linear-gradient(left,  rgba(192,194,195,0) 0%,rgba(192,194,195,0.81) 28%,rgba(192,194,195,1) 43%,rgba(192,194,195,1) 59%,rgba(192,194,195,0.81) 75%,rgba(192,194,195,0) 100%);
+        background: linear-gradient(to right,  rgba(192,194,195,0) 0%,rgba(192,194,195,0.81) 28%,rgba(192,194,195,1) 43%,rgba(192,194,195,1) 59%,rgba(192,194,195,0.81) 75%,rgba(192,194,195,0) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c0c2c3', endColorstr='#00c0c2c3',GradientType=1 );
+    }
+
+    .testimonial-box .video {
+        display: block;
+        float: left;
+        width: 33.33%;
+    }
+
+    .testimonial-box .testimonial-txt {
+        display: block;
+        float: right;
+        width: 66.66%;
+        padding: 0 0 0 3%;
+    }
+
+    .testimonial-box:nth-child(2n + 1) .video {
+        float: right;
+    }
+
+    .testimonial-box:nth-child(2n + 1) .testimonial-txt {
+        float: left;
+        padding: 0 3% 0 0;
+    }
+
+    .video-thumb-link {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 160px;
+        overflow: hidden;
+    }
+
+    .video-thumb-link img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .video-thumb-link .mask {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, .8);
+        opacity: 1;
+    }
+
+    .video-thumb-link .mask img {
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+
+    .video-thumb-link .mask h4 {
+        display: block;
+        margin: 8px auto;
+        font-family: Tahoma, Arial, Verdana, sans-serif;
+        font-size: 10px;
+        line-height: 14px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+
+
+
+    .testimonial-box .testimonial-txt h3 {
+        margin: 10px 0 5px 0;
+        font-family: "Calibri Bold", Arial, Verdana, Tahoma, sans-serif;
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: 700;
+        color: #497cb4;
+        text-transform: uppercase;
+    }
+
+    .testimonial-box .testimonial-txt h2 {
+        font-size: 30px;
+        padding: 0 0 10px 0;
+    }
+
+    .testimonial-box .testimonial-txt p {
+        font-family: Tahoma, Arial, Verdana, sans-serif;
+        font-size: 13px;
+        line-height: 15px;
+        font-weight: 400;
+    }
+
+    .testimonials-thumbs .pagination-nav {
+        display: block;
+        width: 100%;
+        background: rgba(246, 246, 247, 1);
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .testimonials-thumbs .pagination-nav h2 {
+        display: inline-block;
+        vertical-align: middle;
+        font-family: Tahoma, Arial, Verdana, sans-serif;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 400;
+        color: #3b3b3b;
+        text-transform: none;
+        padding: 0 10px 0 0;
+    }
+
+    .testimonials-thumbs .pagination {
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .testimonials-thumbs .pagination li {
+        display: inline-block;
+        vertical-align: middle;
+        padding: 0 3px;
+    }
+
+    .testimonials-thumbs .pagination li a {
+        font-family: Tahoma, Arial, Verdana, sans-serif;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 400;
+        color: #222222;
+    }
+
+    .testimonials-thumbs .pagination li a:link,
+    .testimonials-thumbs .pagination li a:visited {
+        color: #222222;
+        border-bottom: 1px solid transparent;
+    }
+
+    .testimonials-thumbs .pagination li a:hover,
+    .testimonials-thumbs .pagination li a:active {
+        color: #7e9c61;
+        border-bottom: 1px solid transparent;
+    }
+
+    .testimonials-thumbs .pagination li a.active {
+        font-weight: 700;
+        color: #7e9c61;
+        border-bottom: 1px solid #7e9c61;
+    }
+
+    .testimonials-thumbs .pagination li a.pagination-btn {
+        background: rgba(190, 190, 191, 1);
+        display: block;
+        width: 24px;
+        height: 24px;
+        font-size: 25px;
+        line-height: 20px;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: center;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        border-radius: 50%;
+
+        -webkit-transition-property: background;
+        -webkit-transition-duration: .3s;
+        -webkit-transition-timing-function: ease;
+
+        -moz-transition-property: background;
+        -moz-transition-duration: .3s;
+        -moz-transition-timing-function: ease;
+
+        -ms-transition-property: background;
+        -ms-transition-duration: .3s;
+        -ms-transition-timing-function: ease;
+
+        -o-transition-property: background;
+        -o-transition-duration: .3s;
+        -o-transition-timing-function: ease;
+
+        transition-property: background;
+        transition-duration: .3s;
+        transition-timing-function: ease;
+    }
+
+    .testimonials-thumbs .pagination li a.pagination-btn:link,
+    .testimonials-thumbs .pagination li a.pagination-btn:visited {
+        background: rgba(190, 190, 191, 1);
+    }
+
+    .testimonials-thumbs .pagination li a.pagination-btn:hover,
+    .testimonials-thumbs .pagination li a.pagination-btn:active {
+        background: rgba(126, 156, 97, 1);
+    }
+
+    .testimonials-thumbs .pagination li a.pagination-btn img {
+        display: block;
+        width: auto;
+        height: 14px;
+        margin: 0 auto;
+        position: relative;
+        top: 5px;
+    }
+
+    .testimonials-thumbs .pagination li a.prev-page img {
+        left: -1px;
+    }
+
+    .testimonials-thumbs .pagination li a.next-page img {
+        right: -1px;
+    }
+
+
+
+    /* ----- /Testimonials Page ------ */
 
 /* ----- /Inner Page ------ */
 
