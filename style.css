@@ -1555,9 +1555,196 @@ a:active {
         right: -1px;
     }
 
-
-
     /* ----- /Testimonials Page ------ */
+
+
+
+    /* ----- Intro Section Page ------ */
+
+    .articles-two-cols {
+
+    }
+
+    .article-two-col {
+
+    }
+
+    .article-two-col {
+        display: block;
+        position: relative;
+        padding: 25px 0;
+    }
+
+    .article-two-col:before {
+        display: block;
+        content: "";
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: -moz-linear-gradient(left,  rgba(192,194,195,0) 0%, rgba(192,194,195,0.81) 28%, rgba(192,194,195,1) 43%, rgba(192,194,195,1) 59%, rgba(192,194,195,0.81) 75%, rgba(192,194,195,0) 100%);
+        background: -webkit-linear-gradient(left,  rgba(192,194,195,0) 0%,rgba(192,194,195,0.81) 28%,rgba(192,194,195,1) 43%,rgba(192,194,195,1) 59%,rgba(192,194,195,0.81) 75%,rgba(192,194,195,0) 100%);
+        background: linear-gradient(to right,  rgba(192,194,195,0) 0%,rgba(192,194,195,0.81) 28%,rgba(192,194,195,1) 43%,rgba(192,194,195,1) 59%,rgba(192,194,195,0.81) 75%,rgba(192,194,195,0) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c0c2c3', endColorstr='#00c0c2c3',GradientType=1 );
+    }
+
+    .article-two-col:first-child:before {
+        display: none;
+    }
+
+    .article-two-col .video {
+        display: block;
+        float: left;
+        width: 33.33%;
+    }
+
+    .article-two-col .article-two-col-txt {
+        display: block;
+        float: right;
+        width: 66.66%;
+        padding: 0 0 0 2%;
+    }
+
+    .article-two-col:nth-child(2n + 1) .video {
+        float: right;
+    }
+
+    .article-two-col:nth-child(2n + 1) .article-two-col-txt {
+        float: left;
+        padding: 0 2% 0 0;
+    }
+
+    .article-two-col-txt h1 {
+        padding: 0 0 25px 0;
+    }
+
+    .article-two-col .article-two-col-txt p {
+        font-family: Tahoma, Arial, Verdana, sans-serif;
+        font-size: 13px;
+        line-height: 15px;
+        font-weight: 400;
+    }
+
+    .elements-section {
+
+    }
+
+    .elements-col {
+
+    }
+
+    .elements-col h2 {
+        font-family: "Calibri", Arial, Verdana, Tahoma, sans-serif;
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: normal;
+        color: #444444;
+    }
+
+    .elements-col.left {
+        display: block;
+        float: left;
+        width: 66.66%;
+    }
+
+    .elements-col.right {
+        display: block;
+        float: right;
+        width: 33.33%;
+    }
+
+    .elements-col.left ul {
+        display: block;
+        width: 50%;
+        float: left;
+        padding: 10px 0;
+    }
+
+    ul.mark-icon-list {
+        
+    }
+
+    ul.mark-icon-list li {
+        display: table;
+        width: 100%;
+        font-family: "Calibri", Arial, Verdana, Tahoma, sans-serif;
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: normal;
+        color: #444444;
+        padding: 4px 0;
+    }
+
+    ul.mark-icon-list li:before {
+        display: table-cell;
+        vertical-align: top;
+        content: "";
+        height: 100%;
+        width: 30px;
+        background-image: url(img/hat.png);
+        background-position: 0 5px;
+        background-repeat: no-repeat;
+    }
+
+    ul.mark-num-list li {
+        display: table;
+        font-family: "Calibri", Arial, Verdana, Tahoma, sans-serif;
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: normal;
+        color: #444444;
+        padding: 4px 0;
+    }
+
+    ul.mark-num-list li span.li-num {
+        display: table-cell;
+        vertical-align: top;
+        height: 100%;
+        width: 20px;
+        font-family: "Calibri Bold", Arial, Verdana, Tahoma, sans-serif;
+        font-size: 18px;
+        line-height: 20px;
+        font-weight: 700;
+        color: #497cb4;
+        font-style: italic;
+    }
+
+    .elements-col.right h3 {
+        font-family: "Calibri Bold", Arial, Verdana, Tahoma, sans-serif;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 700;
+        color: #497cb4;
+        text-transform: uppercase;
+        padding: 5px 0;
+    }
+
+    .quote {
+        padding: 5px 0 10px 0;
+    }
+
+    .quote h2 {
+        font-family: "Calibri Bold", Arial, Verdana, Tahoma, sans-serif;
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 700;
+        color: #7a7a7a;
+        padding: 7px 0 10px 0;
+    }
+
+    .quote p {
+        font-family: "Calibri", Arial, Verdana, Tahoma, sans-serif;
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: normal;
+        color: #7a7a7a;
+        padding: 10px 0;
+    }
+
+
+
+    /* ----- /Intro Section Page ------ */
 
 /* ----- /Inner Page ------ */
 
