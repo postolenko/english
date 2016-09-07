@@ -242,7 +242,13 @@ h2 {
 }
 
 h3 {
-
+    font-family: "Calibri Bold", Arial, Verdana, Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #497cb4;
+    text-transform: uppercase;
+    padding: 5px 0;
 }
 
 p {
@@ -329,6 +335,13 @@ a:active {
     line-height: 0;
 }
 
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
 
 /*-------------------------------------------*/
 /* ----- PRELOAD ------ */
@@ -1697,6 +1710,10 @@ a:active {
         padding: 4px 0;
     }
 
+    ul.mark-num-list li:before {
+        display: none;
+    }
+
     ul.mark-num-list li span.li-num {
         display: table-cell;
         vertical-align: top;
@@ -1745,6 +1762,76 @@ a:active {
 
 
     /* ----- /Intro Section Page ------ */
+
+    /* ----- About Me Page ------ */
+
+    .about-me-article.right,
+    .about-me-article.left {
+        width: 66.66%;
+    }
+
+    .about-me-article.right {
+        padding: 0 0 0 1%;
+    }
+
+    .about-me-article.right h1 {
+        margin-top: -10px;
+    }
+
+    .about-me-article.left {
+        padding: 0 2% 0 0;
+    }
+
+    .about-me-article p {
+        padding: 20px 0;  
+    }
+
+/*    .about-me-article ul.mark-icon-list {
+        display: block;
+        width: 33%;
+    }*/
+
+    .inner-section-img {
+        display: block;
+        width: 33.33%;
+        /*float: right;*/
+        /*position: relative;*/
+        /*overflow: hidden;*/
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        border-radius: 4px;
+    }
+
+/*    .inner-section-img img {
+        display: block;
+        width: 100%;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        border-radius: 4px;
+    }*/
+
+    .mine-photo {
+        display: block;
+        width: 290px;
+        max-height: 450px;
+        height: auto;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        border-radius: 4px;
+    }
+
+    .mine-photo.to-top {
+        /*position: relative;
+        bottom: 240px;
+*/    }
+
+    /* ----- /About Me Page ------ */
 
 /* ----- /Inner Page ------ */
 
