@@ -2303,19 +2303,38 @@ ul.social-list li {
     top: 0;
     left: 0;
     text-align: center;  
-    background: rgba(255, 255, 255, 1);
-    border: 1px solid #6495ED;
+    background: rgba(255, 255, 255, 0);
+/*    border: 1px solid #6495ED;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    border-radius: 50%;
-    padding: 2px 2px 2px 3px;
+    border-radius: 50%;*/
 }
 
 
 .video-section div button.close-video .fa-times-circle:before {
     display: block;
     content: "\f057";
-    margin: -2px auto 0 auto;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.video-section div button.close-video .fa-times-circle:after {
+    display: block;
+    width: 30px;
+    height: 30px;
+    content: "";
+    margin: auto;
+    background: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
