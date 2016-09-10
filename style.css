@@ -2313,6 +2313,7 @@ ul.social-list li {
 
 
 .video-section div button.close-video .fa-times-circle:before {
+    display: block;
     content: "\f057";
-    margin: -1px 0 0 0;
+    margin: -2px auto 0 auto;
 }
