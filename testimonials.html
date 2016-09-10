@@ -36,13 +36,40 @@
 
 	
 	<title>English</title>
+
+	<!-- <link rel="stylesheet" href="pagination_3/css/style.css"> -->
+	<!-- <link rel="stylesheet" href="pagination_3/css/jPages.css"> -->
+	<!-- <link rel="stylesheet" href="pagination_3/css/animate.css"> -->
+	<!-- <link rel="stylesheet" href="pagination_3/css/github.css"> -->
+
+	<script type="text/javascript" src="pagination/highlight.pack.js"></script>
+	<script type="text/javascript" src="pagination/tabifier.js"></script>
+	<script src="pagination/js.js"></script>
+	<script src="pagination/jPages.js"></script>
+
+	<script>
+  /* when document is ready */
+  $(function(){
+
+    /* initiate the plugin */
+    $("div.holder").jPages({
+      containerID  : "itemContainer",
+      perPage      : 4,
+      startPage    : 1,
+      startRange   : 1,
+      midRange     : 5,
+      endRange     : 1
+    });
+
+  });
+  </script>
 	
 
 </head>
 
 <body>
 
-<div class="wrapper">
+<div class="wrapper main-page">
 
 	<div class="preload-bg">
 		
@@ -181,173 +208,36 @@
 		<!-- Content -->
 			<div class="content">
 
-				<section>
 
-					<div class="row">
+
+<section>
+
+	<div class="row">
+		
+		<h2>Отзывы довольных учеников</h2>
+
+		
+		<div class="testimonials-thumbs">
+
+			<ul id="itemContainer">
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
 						
-						<h2>Отзывы довольных учеников</h2>
+						<a href="#" class="video-thumb-link">
 
-						<div class="testimonials-thumbs">
-
-							<div>
-
-								<div class="testimonial-box clearfix">
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
 									
-									<div class="video">
-										
-										<a href="#" class="video-thumb-link">
+									<div class="center-box">
 
-											<img src="img/english.jpg" alt="Видео отзыва">
-											
-											<div class="mask">
-												
-												<div class="circle">
-													
-													<div class="center-box">
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
 
-														<img class="play-icon" src="img/play_icon.svg" alt="" >
-
-														<h4>Смотреть</h4>
-
-													</div>
-
-												</div>
-
-											</div>
-
-										</a>
-
-									</div>
-
-									<div class="testimonial-txt">
-										
-										<h3>Максим, 32 года</h3>
-
-										<h2>Спасибо большое!</h2>
-
-										<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
-
-									</div>
-
-								</div>
-
-
-								<div class="testimonial-box clearfix">
-									
-									<div class="video">
-										
-										<a href="#" class="video-thumb-link">
-
-											<img src="img/english.jpg" alt="Видео отзыва">
-											
-											<div class="mask">
-												
-												<div class="circle">
-													
-													<div class="center-box">
-
-														<img class="play-icon" src="img/play_icon.svg" alt="" >
-
-														<h4>Смотреть</h4>
-
-													</div>
-
-												</div>
-
-											</div>
-
-										</a>
-
-									</div>
-
-									<div class="testimonial-txt">
-										
-										<h3>Виталик, 12 лет</h3>
-
-										<h2>Профессионально!</h2>
-
-										<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
-
-									</div>
-
-								</div>
-
-								<div class="testimonial-box clearfix">
-									
-									<div class="video">
-										
-										<a href="#" class="video-thumb-link">
-
-											<img src="img/english.jpg" alt="Видео отзыва">
-											
-											<div class="mask">
-												
-												<div class="circle">
-													
-													<div class="center-box">
-
-														<img class="play-icon" src="img/play_icon.svg" alt="" >
-
-														<h4>Смотреть</h4>
-
-													</div>
-
-												</div>
-
-											</div>
-
-										</a>
-
-									</div>
-
-									<div class="testimonial-txt">
-										
-										<h3>Максим, 32 года</h3>
-
-										<h2>Спасибо большое!</h2>
-
-										<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
-
-									</div>
-
-								</div>
-
-
-								<div class="testimonial-box clearfix">
-									
-									<div class="video">
-										
-										<a href="#" class="video-thumb-link">
-
-											<img src="img/english.jpg" alt="Видео отзыва">
-											
-											<div class="mask">
-												
-												<div class="circle">
-													
-													<div class="center-box">
-
-														<img class="play-icon" src="img/play_icon.svg" alt="" >
-
-														<h4>Смотреть</h4>
-
-													</div>
-
-												</div>
-
-											</div>
-
-										</a>
-
-									</div>
-
-									<div class="testimonial-txt">
-										
-										<h3>Виталик, 12 лет</h3>
-
-										<h2>Профессионально!</h2>
-
-										<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+										<h4>Смотреть</h4>
 
 									</div>
 
@@ -355,53 +245,5795 @@
 
 							</div>
 
-							<nav class="pagination-nav">
-
-								<h2>Страницы:</h2>
-
-								<ul class="pagination">
-
-									<li>
-
-										<a href="#" class="pagination-btn prev-page">
-
-											<!-- <span>&lsaquo;</span> -->
-											<img src="img/prev_page.svg" alt="next">
-
-										</a>
-
-									</li>
-
-									<li><a href="#" class="active">1</a></li>
-									<li><a href="#">2</a></li>
-									<li><a href="#">3</a></li>
-									<li><a href="#">4</a></li>
-									<li><a href="#">5</a></li>
-									<li>...</li>
-									<li><a href="#">21</a></li>
-
-									<li>
-
-										<a href="#" class="pagination-btn next-page">
-
-											<!-- <span>&rsaquo;</span> -->
-											<img src="img/next_page.svg" alt="next">
-
-										</a>
-
-									</li>
-
-								</ul>
-
-							</nav>
-
-						</div>
+						</a>
 
 					</div>
 
-				</section>
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
 
-			</div>
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Максим, 32 года</h3>
+
+						<h2>Спасибо большое!</h2>
+
+						<p>Несколкько строк информации. Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+
+					</div>
+
+				</li>
+
+				<li class="testimonial-box clearfix">
+					
+					<div class="video">
+						
+						<a href="#" class="video-thumb-link">
+
+							<img src="img/english.jpg" alt="Видео отзыва">
+							
+							<div class="mask">
+								
+								<div class="circle">
+									
+									<div class="center-box">
+
+										<img class="play-icon" src="img/play_icon.svg" alt="" >
+
+										<h4>Смотреть</h4>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="testimonial-txt">
+						
+						<h3>Виталик, 12 лет</h3>
+
+						<h2>Профессионально!</h2>
+
+						<p>Описание dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat  Lorem ipsum dolor sit amet</p>
+
+					</div>
+
+				</li>
+
+			</ul>
+
+			<nav class="pagination-nav">
+
+				<h2>Страницы:</h2>
+
+				<!-- <ul class="pagination">
+
+					<li>
+
+						<a href="#" class="pagination-btn prev-page">
+
+							<img src="img/prev_page.svg" alt="next">
+
+						</a>
+
+					</li>
+
+					<li><a href="#" class="active">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li>...</li>
+					<li><a href="#">21</a></li>
+
+					<li>
+
+						<a href="#" class="pagination-btn next-page">
+
+							<img src="img/next_page.svg" alt="next">
+
+						</a>
+
+					</li>
+
+				</ul> -->
+
+				 <!-- navigation holder -->
+      <div class="pagination holder"></div>
+
+			</nav>
+
+		</div>
+
+	</div>
+
+</section>
+
+		</div>
 		<!-- /Content -->
 
 		<!-- Footer -->
@@ -428,12 +6060,12 @@
 
 						<ul class="seo-txt">
 								
-							<li><a href="prices.html">Цены</a></li>
-							<li><a href="#">Обо мне</a></li>
-							<li><a href="contacts.html">Контакты</a></li>
-							<li><a href="#">Отзывы</a></li>
-							<li><a href="#">Курс обучения</a></li>
-							<li><a href="index.html">Главная</a></li>
+							<li><a class="link" href="pages/prices.html">Цены</a></li>
+							<li><a class="link" href="pages/about_me.html">Обо мне</a></li>
+							<li><a class="link" href="pages/contacts.html">Контакты</a></li>
+							<li><a class="link" href="pages/testimonials.html">Отзывы</a></li>
+							<li><a class="link" href="pages/courses.html">Курс обучения</a></li>
+							<li><a class="link" href="index.html">Главная</a></li>
 
 						</ul>
 						
