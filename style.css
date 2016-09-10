@@ -2307,6 +2307,6 @@ ul.social-list li {
     line-height: 50px;
     color: #6495ED;
     position: absolute;
-    top: 0;
+    top: 1px;
     left: 0;
 }
